@@ -1,0 +1,63 @@
+@import "./variables.css";
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.gridBackground {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, #80808012 1px, transparent 1px),
+    linear-gradient(to bottom, #80808012 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.avatar {
+  border: var(--border);
+}
+
+.myImage {
+  filter: saturate(0);
+}
+
+.btn {
+  background-color: var(--btn-color);
+  color: var(--btn-text);
+  font-weight: 700;
+}
+
+/** project cards */
+.projectCard {
+  background-color: var(--card-background);
+  border: var(--card-border);
+}
+
+.cardTitle {
+  color: var(--text-color);
+}
+
+/* nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+/* footer */
+footer {
+  height: 100px;
+  background-color: var(--footer-background);
+}

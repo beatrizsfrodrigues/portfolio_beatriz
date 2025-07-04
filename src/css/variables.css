@@ -1,0 +1,20 @@
+:root {
+  --light-yellow: #fffef3;
+  --yellow: #ffffd3;
+  --dark-yellow: #bbbb97;
+  --grey-yellow: #f6f5e4;
+  --blue: #366ae2;
+  --black: #191919;
+  --white: #f8f9f4;
+}
+
+:root {
+  --background-color: var(--light-yellow);
+  --text-color: var(--black);
+  --border: 4px solid var(--blue);
+  --btn-color: var(--blue);
+  --btn-text: var(--white);
+  --card-background: var(--yellow);
+  --card-border: 4px solid var(--dark-yellow);
+  --footer-background: var(--blue);
+}
